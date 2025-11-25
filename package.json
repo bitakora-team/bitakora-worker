@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "node --max-old-space-size=1024 ./node_modules/typescript/bin/tsc",
+    "build": "tsc",
     "start": "node --max-old-space-size=512 dist/index.js"
   },
   "dependencies": {
