@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node --max-old-space-size=512 dist/index.js",
-    "build": "tsc"
+    "build": "node --max-old-space-size=1024 ./node_modules/typescript/bin/tsc",
+    "start": "node --max-old-space-size=512 dist/index.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
